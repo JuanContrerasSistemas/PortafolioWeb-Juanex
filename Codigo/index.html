@@ -1,0 +1,980 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Portafolio de Juan Contreras, ingeniero de sistemas."
+    />
+    <meta name="author" content="Juan Contreras" />
+
+    <title>Juan Contreras | Ingeniero de Sistemas</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="page">
+      <!-- MARCA DE AGUA -->
+      <div class="page__watermark" aria-hidden="true">
+        <img src="../imagenes/fotoInicial.png" alt="" />
+      </div>
+      <!-- =========================
+         SECCIÓN 1 - INICIO
+    ========================== -->
+      <section class="hero" id="inicio">
+        <!-- EFECTOS DEL FONDO -->
+        <div class="hero__background-effects" aria-hidden="true"></div>
+
+        <div class="hero__container">
+          <header class="hero__header">
+            <img
+              src="../imagenes/tituloPrincipal.png"
+              alt="Conoce al Ingeniero Juan Contreras"
+              class="hero__title"
+            />
+          </header>
+
+          <div class="hero__content">
+            <div class="hero__left">
+              <div class="hero__visual">
+                <img
+                  src="../imagenes/fotoInicial.png"
+                  alt="Juan Contreras"
+                  class="hero__img hero__img--current"
+                  id="heroImageCurrent"
+                />
+
+                <img
+                  src="../imagenes/fotoInicial.png"
+                  alt=""
+                  class="hero__img hero__img--next"
+                  id="heroImageNext"
+                  aria-hidden="true"
+                />
+              </div>
+            </div>
+
+            <div class="hero__right">
+              <nav class="menu" aria-label="Navegación principal">
+                <a
+                  href="#inicio"
+                  class="menu__item"
+                  data-image="../imagenes/item1.png"
+                  data-scale="1.4"
+                  data-x="60"
+                  data-y="0"
+                >
+                  <img src="../imagenes/botonInicio.png" alt="Inicio" />
+                </a>
+
+                <a
+                  href="#sobre-mi"
+                  class="menu__item"
+                  data-image="../imagenes/item2.png"
+                  data-scale="1.3"
+                  data-x="60"
+                  data-y="0"
+                >
+                  <img src="../imagenes/botonSobreMi.png" alt="Sobre mí" />
+                </a>
+
+                <a
+                  href="#proyectos"
+                  class="menu__item"
+                  data-image="../imagenes/item3.png"
+                  data-scale="1.3"
+                  data-x="42"
+                  data-y="8"
+                >
+                  <img src="../imagenes/botonProyectos.png" alt="Proyectos" />
+                </a>
+
+                <a
+                  href="#habilidades"
+                  class="menu__item"
+                  data-image="../imagenes/item4.png"
+                  data-scale="1.3"
+                  data-x="35"
+                  data-y="15"
+                >
+                  <img
+                    src="../imagenes/botonHabilidades.png"
+                    alt="Habilidades"
+                  />
+                </a>
+
+                <a
+                  href="#contacto"
+                  class="menu__item"
+                  data-image="../imagenes/item5.png"
+                  data-scale="1.3"
+                  data-x="30"
+                  data-y="20"
+                >
+                  <img src="../imagenes/botonContacto.png" alt="Contacto" />
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+         SECCIÓN 2 - SOBRE MÍ
+    ========================== -->
+      <section class="about" id="sobre-mi">
+        <div class="about__container">
+          <!-- TÍTULO -->
+          <header class="about__header">
+            <span class="about__eyebrow"> CONOCE MÁS </span>
+
+            <h2 class="about__title">SOBRE MÍ</h2>
+          </header>
+
+          <!-- CONTENIDO -->
+          <div class="about__content">
+            <!-- TEXTO -->
+            <article class="about__text">
+              <div class="about__text-decoration"></div>
+
+              <h3>Mi historia</h3>
+
+              <p>
+                Soy Juan Contreras, nací en Colombia 🟨🟦🟥 y actualmente estoy
+                culminando mis estudios en Ingeniería de Sistemas. Desde muy
+                joven me interesé por la tecnología, en especial por la gama de
+                soluciones que se pueden crear a través de la programación y el
+                desarrollo de software.
+              </p>
+
+            </br>
+
+              <p>
+                Me encuentro en 10mo semestre, y a lo largo de mi carrera he
+                adquirido experiencia en diversos lenguajes de programación,
+                metodologías y herramientas de desarrollo ⚙️👨🏼‍💻, lo que me ha
+                permitido participar en proyectos académicos y personales.
+              </p>
+
+            </br>
+
+
+              <p>
+                Actualmente, estoy buscando oportunidades en práctica
+                empresarial 💡 para aplicar mis conocimientos y habilidades en un
+                entorno profesional, donde pueda contribuir al desarrollo de
+                soluciones innovadoras y mejorar mediante el aprendizaje de
+                trabajo en equipo 🤝.
+              </p>
+            </article>
+
+            <!-- IMAGEN -->
+            <div class="about__visual">
+              <div class="about__image-frame">
+                <img
+                  src="../imagenes/fotoSobreMi.png"
+                  alt=""
+                  class="about__image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+     NAVEGACIÓN SECUNDARIA
+     Visible desde sección 2
+    ========================== -->
+    <nav class="side-nav" aria-label="Navegación de secciones">
+      <a href="#inicio" class="side-nav__item">
+        <span class="side-nav__icon">
+          <img src="../imagenes/iconInicio.png" alt="" />
+        </span>
+
+        <span class="side-nav__label">
+          Inicio
+        </span>
+      </a>
+
+      <a href="#sobre-mi" class="side-nav__item">
+        <span class="side-nav__icon">
+          <img src="../imagenes/iconSobreMi.png" alt="" />
+        </span>
+
+        <span class="side-nav__label">
+          Sobre mí
+        </span>
+      </a>
+
+      <a href="#proyectos" class="side-nav__item">
+        <span class="side-nav__icon">
+          <img src="../imagenes/iconProyectos.png" alt="" />
+        </span>
+
+        <span class="side-nav__label">
+          Proyectos
+        </span>
+      </a>
+
+      <a href="#habilidades" class="side-nav__item">
+        <span class="side-nav__icon">
+          <img src="../imagenes/iconHabilidades.png" alt="" />
+        </span>
+
+        <span class="side-nav__label">
+          Habilidades
+        </span>
+      </a>
+
+      <a href="#contacto" class="side-nav__item">
+        <span class="side-nav__icon">
+          <img src="../imagenes/iconContacto.png" alt="" />
+        </span>
+
+        <span class="side-nav__label">
+          Contacto
+        </span>
+      </a>
+
+    </nav>
+
+      <!-- Las siguientes secciones las agregaremos después -->
+
+      <!-- =========================
+     SECCIÓN 3 - PROYECTOS
+========================== -->
+<section class="projects" id="proyectos">
+
+  <div class="projects__container">
+
+    <!-- ENCABEZADO -->
+    <header class="projects__header">
+      <span class="projects__eyebrow">LO QUE HE CONSTRUIDO</span>
+      <h2 class="projects__title">PROYECTOS</h2>
+      <p class="projects__intro">
+        Una selección de proyectos en los que he aplicado mis conocimientos
+        de programación, desarrollo de software y herramientas tecnológicas.
+      </p>
+      <div class="projects__filters" role="group" aria-label="Filtrar proyectos">
+
+    <button
+        class="projects__filter projects__filter--active"
+        type="button"
+        data-filter="all"
+    >
+        Todos
+    </button>
+
+    <button
+        class="projects__filter"
+        type="button"
+        data-filter="pending"
+    >
+        Pendientes
+    </button>
+
+    <button
+        class="projects__filter"
+        type="button"
+        data-filter="progress"
+    >
+        En curso
+    </button>
+
+    <button
+        class="projects__filter"
+        type="button"
+        data-filter="finished"
+    >
+        Terminados
+    </button>
+
+</div>
+    </header>
+
+    <!-- PROYECTOS -->
+    <div class="projects__grid">
+
+      <!-- PROYECTO 1 -->
+      <article
+    class="project-card"
+    data-status="progress"
+>
+
+        <div class="project-card__number">01</div>
+
+        <div class="project-card__content">
+
+          <h3 class="project-card__title">
+            PORTAFOLIO WEB
+          </h3>
+
+          <span class="project-card__status project-card__status--progress">
+            EN CURSO
+          </span>
+
+          <p class="project-card__description">
+            Desarrollo de un portafolio web personal orientado a presentar
+            mi perfil profesional, proyectos, habilidades y experiencia
+            mediante una interfaz visual con identidad urbana.
+          </p>
+
+          <div class="project-card__technologies">
+
+            <h4>TECNOLOGÍAS</h4>
+
+            <div class="technology">
+              <div class="technology__info">
+                <span>HTML</span>
+                <span>30%</span>
+              </div>
+              <div class="technology__bar">
+                <span style="width: 30%"></span>
+              </div>
+            </div>
+
+            <div class="technology">
+              <div class="technology__info">
+                <span>CSS</span>
+                <span>40%</span>
+              </div>
+              <div class="technology__bar">
+                <span style="width: 40%"></span>
+              </div>
+            </div>
+
+            <div class="technology">
+              <div class="technology__info">
+                <span>JavaScript</span>
+                <span>30%</span>
+              </div>
+              <div class="technology__bar">
+                <span style="width: 30%"></span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- PROYECTO 2 -->
+      <article
+    class="project-card"
+    data-status="pending"
+>
+
+        <div class="project-card__number">02</div>
+
+        <div class="project-card__content">
+
+          <h3 class="project-card__title">
+            SISTEMA DE GESTIÓN
+          </h3>
+
+          <span class="project-card__status project-card__status--pending">
+            PENDIENTE
+          </span>
+
+          <p class="project-card__description">
+            Sistema orientado a facilitar la administración de información,
+            usuarios y procesos mediante una aplicación estructurada para
+            mejorar la organización y automatización de tareas.
+          </p>
+
+          <div class="project-card__technologies">
+
+            <h4>TECNOLOGÍAS</h4>
+
+            <div class="technology">
+              <div class="technology__info">
+                <span>Python</span>
+                <span>45%</span>
+              </div>
+              <div class="technology__bar">
+                <span style="width: 45%"></span>
+              </div>
+            </div>
+
+            <div class="technology">
+              <div class="technology__info">
+                <span>SQL</span>
+                <span>35%</span>
+              </div>
+              <div class="technology__bar">
+                <span style="width: 35%"></span>
+              </div>
+            </div>
+
+            <div class="technology">
+              <div class="technology__info">
+                <span>Git</span>
+                <span>20%</span>
+              </div>
+              <div class="technology__bar">
+                <span style="width: 20%"></span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- PROYECTO 3 -->
+      <article
+    class="project-card"
+    data-status="finished"
+>
+
+        <div class="project-card__number">03</div>
+
+        <div class="project-card__content">
+
+          <h3 class="project-card__title">
+            APLICACIÓN WEB
+          </h3>
+
+          <span class="project-card__status project-card__status--finished">
+            TERMINADO
+          </span>
+
+          <p class="project-card__description">
+            Aplicación web enfocada en ofrecer una experiencia sencilla,
+            dinámica y funcional, combinando una interfaz moderna con
+            diferentes funcionalidades desarrolladas desde cero.
+          </p>
+
+          <div class="project-card__technologies">
+
+            <h4>TECNOLOGÍAS</h4>
+
+            <div class="technology">
+              <div class="technology__info">
+                <span>HTML</span>
+                <span>25%</span>
+              </div>
+              <div class="technology__bar">
+                <span style="width: 25%"></span>
+              </div>
+            </div>
+
+            <div class="technology">
+              <div class="technology__info">
+                <span>CSS</span>
+                <span>30%</span>
+              </div>
+              <div class="technology__bar">
+                <span style="width: 30%"></span>
+              </div>
+            </div>
+
+            <div class="technology">
+              <div class="technology__info">
+                <span>JavaScript</span>
+                <span>45%</span>
+              </div>
+              <div class="technology__bar">
+                <span style="width: 45%"></span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+    <!-- =========================
+     SECCIÓN 4 - HABILIDADES
+========================== -->
+<section class="skills" id="habilidades">
+
+  <div class="skills__container">
+
+    <!-- ENCABEZADO -->
+    <header class="skills__header">
+      <span class="skills__eyebrow">STACK TECNOLÓGICO</span>
+
+      <h2 class="skills__title">HABILIDADES</h2>
+
+      <p class="skills__intro">
+        Tecnologías y herramientas con las que he trabajado durante mi
+        formación y desarrollo de proyectos.
+      </p>
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="skills__content">
+
+
+      <!-- =====================================
+           COLUMNA IZQUIERDA
+      ====================================== -->
+
+      <div class="skills__column skills__column--left">
+
+        <button
+          class="skill"
+          type="button"
+          data-skill="python"
+        >
+          <span class="skill__icon">
+            <img
+              src="../imagenes/iconPython.png"
+              alt=""
+            />
+          </span>
+
+          <span class="skill__name">
+            Python
+          </span>
+        </button>
+
+
+        <button
+          class="skill"
+          type="button"
+          data-skill="html"
+        >
+          <span class="skill__icon">
+            <img
+              src="../imagenes/iconHTML.png"
+              alt=""
+            />
+          </span>
+
+          <span class="skill__name">
+            HTML
+          </span>
+        </button>
+
+
+        <button
+          class="skill"
+          type="button"
+          data-skill="css"
+        >
+          <span class="skill__icon">
+            <img
+              src="../imagenes/iconCSS.png"
+              alt=""
+            />
+          </span>
+
+          <span class="skill__name">
+            CSS
+          </span>
+        </button>
+
+      </div>
+
+
+      <!-- =====================================
+           IMAGEN CENTRAL
+      ====================================== -->
+
+      <div class="skills__center">
+
+        <div class="skills__electric"></div>
+
+        <div class="skills__image-wrapper">
+
+          <img
+            src="../imagenes/fotoconPC.png"
+            alt=""
+            class="skills__image"
+          />
+
+        </div>
+
+      </div>
+
+
+      <!-- =====================================
+           COLUMNA DERECHA
+      ====================================== -->
+
+      <div class="skills__column skills__column--right">
+
+        <button
+          class="skill"
+          type="button"
+          data-skill="javascript"
+        >
+          <span class="skill__icon">
+            <img
+              src="../imagenes/iconJs.png"
+              alt=""
+            />
+          </span>
+
+          <span class="skill__name">
+            JavaScript
+          </span>
+        </button>
+
+
+        <button
+          class="skill"
+          type="button"
+          data-skill="sql"
+        >
+          <span class="skill__icon">
+            <img
+              src="../imagenes/iconSQL.png"
+              alt=""
+            />
+          </span>
+
+          <span class="skill__name">
+            SQL
+          </span>
+        </button>
+
+
+        <button
+          class="skill"
+          type="button"
+          data-skill="git"
+        >
+          <span class="skill__icon">
+            <img
+              src="../imagenes/iconGit.png"
+              alt=""
+            />
+          </span>
+
+          <span class="skill__name">
+            Git
+          </span>
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- ==================================================
+       MODAL DE HABILIDADES
+  =================================================== -->
+
+  <div
+    class="skill-modal"
+    id="skillModal"
+    aria-hidden="true"
+  >
+
+    <div class="skill-modal__overlay"></div>
+
+
+    <div
+      class="skill-modal__window"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="skillModalTitle"
+    >
+
+      <button
+        class="skill-modal__close"
+        id="skillModalClose"
+        type="button"
+        aria-label="Cerrar ventana"
+      >
+        ×
+      </button>
+
+
+      <div class="skill-modal__header">
+
+        <span class="skill-modal__eyebrow">
+          TECNOLOGÍA
+        </span>
+
+        <h3
+          class="skill-modal__title"
+          id="skillModalTitle"
+        >
+          PYTHON
+        </h3>
+
+      </div>
+
+
+      <div
+        class="skill-modal__body"
+        id="skillModalBody"
+      >
+
+        <!-- JavaScript rellenará este contenido -->
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+    <!-- =========================
+     SECCIÓN 5 - CONTACTO
+========================== -->
+<section class="contact" id="contacto">
+
+  <!-- DECORACIÓN DE FONDO -->
+  <div class="contact__grid" aria-hidden="true"></div>
+  <div class="contact__glow contact__glow--one" aria-hidden="true"></div>
+  <div class="contact__glow contact__glow--two" aria-hidden="true"></div>
+
+  <div class="contact__container">
+
+    <!-- ENCABEZADO -->
+    <header class="contact__header">
+
+      <span class="contact__eyebrow">
+        ¿TIENES UN PROYECTO?
+      </span>
+
+      <h2 class="contact__title">
+        CONECTEMOS
+      </h2>
+
+      <p class="contact__intro">
+        Si tienes una idea, un proyecto o simplemente quieres conocer
+        más sobre mi trabajo, estaré encantado de escucharte.
+      </p>
+
+    </header>
+
+
+    <!-- CONTENIDO -->
+    <div class="contact__content">
+
+
+      <!-- =========================
+           COLUMNA IZQUIERDA
+      ========================== -->
+      <aside class="contact__socials">
+
+        <a href="#" class="contact__social">
+          <div class="contact__social-icon">
+    <img src="../imagenes/iconLI.png" alt="">
+</div>
+
+          <div class="contact__social-info">
+            <strong>LinkedIn</strong>
+            <small>Conecta profesionalmente</small>
+          </div>
+        </a>
+
+
+        <a href="#" class="contact__social">
+          <div class="contact__social-icon">
+    <img src="../imagenes/iconGH.png" alt="">
+</div>
+
+          <div class="contact__social-info">
+            <strong>GitHub</strong>
+            <small>Explora mis proyectos</small>
+          </div>
+        </a>
+
+
+        <a href="#" class="contact__social">
+          <div class="contact__social-icon">
+    <img src="../imagenes/iconWA.png" alt="">
+</div>
+
+          <div class="contact__social-info">
+            <strong>WhatsApp</strong>
+            <small>Hablemos directamente</small>
+          </div>
+        </a>
+
+      </aside>
+
+
+      <!-- =========================
+           FORMULARIO CENTRAL
+      ========================== -->
+      <div class="contact__panel">
+
+        <div class="contact__panel-top">
+          <span>CONTACT_FORM</span>
+          <span class="contact__status">
+            ● ONLINE
+          </span>
+        </div>
+
+
+        <form class="contact__form">
+
+          <div class="contact__field">
+            <label for="nombre">
+              NOMBRE
+            </label>
+
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Escribe tu nombre"
+              required
+            />
+          </div>
+
+
+          <div class="contact__field">
+            <label for="correo">
+              CORREO ELECTRÓNICO
+            </label>
+
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              placeholder="tucorreo@ejemplo.com"
+              required
+            />
+          </div>
+
+
+          <div class="contact__field">
+            <label for="asunto">
+              ASUNTO
+            </label>
+
+            <input
+              type="text"
+              id="asunto"
+              name="asunto"
+              placeholder="¿En qué podemos trabajar?"
+            />
+          </div>
+
+
+          <div class="contact__field">
+            <label for="mensaje">
+              MENSAJE
+            </label>
+
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="5"
+              placeholder="Cuéntame sobre tu proyecto..."
+              required
+            ></textarea>
+          </div>
+
+
+          <button
+            type="submit"
+            class="contact__submit"
+          >
+            <span>ENVIAR MENSAJE</span>
+            <span class="contact__submit-arrow">»</span>
+          </button>
+
+        </form>
+
+      </div>
+
+
+      <!-- =========================
+           COLUMNA DERECHA
+      ========================== -->
+      <aside class="contact__info">
+
+        <div class="contact__info-card">
+
+          <span class="contact__info-label">
+            ESTADO
+          </span>
+
+          <div class="contact__availability">
+            <span></span>
+            DISPONIBLE
+          </div>
+
+          <p>
+            Actualmente abierto a nuevos proyectos,
+            colaboraciones y oportunidades profesionales.
+          </p>
+
+        </div>
+
+
+        <div class="contact__info-card">
+
+          <span class="contact__info-label">
+            PERFIL
+          </span>
+
+          <p>
+            Ingeniero de Sistemas enfocado en tecnología,
+            desarrollo de software y soluciones digitales.
+          </p>
+
+        </div>
+
+
+        <div class="contact__info-card contact__info-card--email">
+
+          <span class="contact__info-label">
+            EMAIL
+          </span>
+
+          <strong>
+            TU_CORREO@EJEMPLO.COM
+          </strong>
+
+        </div>
+
+      </aside>
+
+    </div>
+
+
+    <!-- PIE -->
+    <footer class="contact__footer">
+
+      <span></span>
+
+      <p>
+        DISPONIBLE PARA NUEVOS DESAFÍOS
+      </p>
+
+      <span></span>
+
+    </footer>
+
+  </div>
+
+</section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
